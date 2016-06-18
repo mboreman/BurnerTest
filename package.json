@@ -1,0 +1,24 @@
+{
+  "name": "echobot",
+  "version": "0.1.5",
+  "description": "A simple Bot that echoes any inbound text back to the sender.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "body-parser": "1.15.0",
+    "ejs": "2.3.3",
+    "express": "4.13.3",
+    "request": "2.69.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/adhoclabs/echobot.git"
+  },
+  "engines": {
+    "node": "0.12.7"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Burner Echobot",
+  "description": "A simple Bot that echoes any inbound text back to the sender.",
+  "repository": "https://github.com/adhoclabs/echobot",
+  "logo": "https://static.burnerapp.com/echobot.png",
+  "keywords": ["burner", "bot"],
+  "env": {
+    "incomingwebhookurl": {
+      "description": "Burner incoming webhook url",
+      "value": ""
+    }
+  }
+}
