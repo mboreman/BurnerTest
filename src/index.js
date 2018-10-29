@@ -9,7 +9,7 @@ var express = require('express');
 var app = express();
 var bodyParser = require('body-parser');
 var request = require("request");
-var incomingWebhookURL = process.env.incomingwebhookurl;
+var incomingWebhookURL = https://api.burnerapp.com/webhooks/burner/e8fa59c8-26b9-4460-8049-0d50c03b4037?token=88681e3a-9780-4f6a-2478-947c52b31474;
 
 // Express setup
 
