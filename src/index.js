@@ -37,9 +37,10 @@ app.post('/listen', function (req, res) {
 	}
 
 	// get message and sender from body
-
-	var message = req.body['payload'];
-	var sender = req.body['fromNumber'];
+	//var message = req.body['payload'];
+	//var sender = req.body['fromNumber'];
+	var message = "This is a test";
+	var sender = 14845542127;
 
 	console.log("echoing text back to sender: " + sender + " with message: " + message);
 	console.log("POSTing message to : " + incomingWebhookURL);
